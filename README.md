@@ -1,7 +1,7 @@
 # Zadanie – Developer – Gaelta × Shoptet
 **Autor:** Andrii Onopriienko
 
-##Zadanie 1 – Shoptet šablóna – úprava komponentu
+## Zadanie 1 – Shoptet šablóna – úprava komponentu
 
 ### Implementované funkcie:
 1. **„Novinka" badge** – zelený štítok pre produkty pridané za posledných 30 dní
