@@ -13,7 +13,7 @@
 |---|---|
 | **HTML** | Šablóna obchodu → Editor šablón → `product-in-category.tpl` |
 | **CSS** | Šablóna obchodu → Editor šablón → CSS → `custom.css` |
-| **JS** | Šablóna obchodu → Hlavička/pätička → Kód pred `</body>` |
+| **JS** | Šablóna obchodu → Hlavička/pätička → Kód pred `</body>` (`scripts.js`) |
 
 ## Zadanie 2 – Shoptet Webhook → Google Sheets 
 Spracovanie webhooku z Shoptetu po vytvorení novej objednávky
@@ -25,3 +25,7 @@ Postup nasadenia:
 4. Uložiť credentials.json do rovnakého adresára
 
 ### Pseudokód (JS/Node): `webhook-handler.js`
+
+
+## Zadanie 3 – Debug + optimalizácia
+### Opravený kód (celý) → `opraveny-kod-z3.js`
