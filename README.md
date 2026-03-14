@@ -33,12 +33,12 @@ Odpovede sú uvedené v  **Dokumente Google "Cvičné zadanie Andrii Onopriienko
 ### Opravený kód (celý) → `opraveny-kod-z3.js`
 
 
-# Úloha 4 – Stručné odpovede
+## Zadanie 4 – Stručné odpovede
 
 Odpovede sú uvedené v **Dokumente Google "Cvičné zadanie Andrii Onopriienko"** odoslanom spolu s týmto repozitárom.
 
 
-# Úloha 5 – Znalosť platformy
+## Zadanie 5 – Znalosť platformy
 
 Odpovede sú uvedené v  **Dokumente Google "Cvičné zadanie Andrii Onopriienko"** odoslanom spolu s týmto repozitárom.
 
