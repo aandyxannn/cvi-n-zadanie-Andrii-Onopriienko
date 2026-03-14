@@ -1,5 +1,6 @@
 # Zadanie – Developer – Gaelta × Shoptet
 **Autor:** Andrii Onopriienko
+
 ##Zadanie 1 – Shoptet šablóna – úprava komponentu
 
 ### Implementované funkcie:
