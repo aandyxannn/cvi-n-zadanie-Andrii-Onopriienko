@@ -1,0 +1,22 @@
+<!-- Vnútri .product-item -->
+<div class="product-card">
+  <div class="product-image-wrapper">
+    <img src="{$product.image}" alt="{$product.name}">
+    {if $product.isNew}
+      <span class="badge-new">Novinka</span>
+    {/if}
+    <button class="btn-add-to-cart"
+      onclick="shoptet.cart.add({$product.id}, 1)">
+      🛒 Pridať do košíka
+    </button>
+  </div>
+  <div class="product-info">
+    <h3>{$product.name}</h3>
+    <p class="price">{$product.price} €</p>
+    {if $product.price < 50}
+      <p class="free-shipping-note">
+        🚚 Doprava zadarmo pri objednávke nad 50 €
+      </p>
+    {/if}
+  </div>
+</div>
