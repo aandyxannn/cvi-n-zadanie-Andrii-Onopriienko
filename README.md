@@ -1,18 +1,20 @@
 # Zadanie – Developer – Gaelta × Shoptet
-Autor: Andrii Onopriienko
-Zadanie 1 – Shoptet šablóna – úprava komponentu
+**Autor:** Andrii Onopriienko
+##Zadanie 1 – Shoptet šablóna – úprava komponentu
 
-Kam umiestniť kód v Shoptet
+### Implementované funkcie:
+1. **„Novinka" badge** – zelený štítok pre produkty pridané za posledných 30 dní
+2. **Doprava zadarmo** – text „🚚 Doprava zadarmo nad 50 €" sa zobrazí iba pri cene < 50 €
+3. **Hover efekt** – tlačidlo „Pridať do košíka" sa zobrazí až po nabehnutí myšou
 
-HTML/JS: Administrácia → Šablóna obchodu → Editor šablón → Šablóny → product-in-category.tpl — toto je šablóna karty produktu v kategórii.
+### Umiestnenie v Shoptete:
+| Čo | Kam v admin |
+|---|---|
+| **HTML** | Šablóna obchodu → Editor šablón → `product-in-category.tpl` |
+| **CSS** | Šablóna obchodu → Editor šablón → CSS → `custom.css` |
+| **JS** | Šablóna obchodu → Hlavička/pätička → Kód pred `</body>` |
 
-CSS: Administrácia → Šablóna obchodu → Editor šablón → CSS → custom.css (alebo Šablóna → Vlastné CSS).
-
-JS: Administrácia → Šablóna obchodu → Hlavička/pätička → pole „Kód pred </body>" — pre vlastné skripty.
-
-Alternatívne: Použite doplnok „Vlastný kód" z marketplace Shoptet na vloženie HTML/CSS/JS bez úpravy šablón.
-
-Zadanie 2 – Shoptet Webhook → Google Sheets // webhook-handler.js
+## Zadanie 2 – Shoptet Webhook → Google Sheets 
 Spracovanie webhooku z Shoptetu po vytvorení novej objednávky
 a zápis dát do Google Sheets cez Google Sheets API v4.
 Postup nasadenia:
@@ -20,3 +22,5 @@ Postup nasadenia:
 2. URL nastaviť na endpoint tohto handlera 
 3. 3. Vytvoriť Google Service Account a zdieľať spreadsheet s jeho emailom
 4. Uložiť credentials.json do rovnakého adresára
+
+### Pseudokód (JS/Node): `webhook-handler.js`
