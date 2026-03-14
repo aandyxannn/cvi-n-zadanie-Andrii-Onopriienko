@@ -17,6 +17,6 @@ Spracovanie webhooku z Shoptetu po vytvorení novej objednávky
 a zápis dát do Google Sheets cez Google Sheets API v4.
 Postup nasadenia:
 1. V Shoptet Admin → Integrácie → Webhooky → pridať webhook "order:create"
-2. URL nastaviť na endpoint tohto handlera (napr. https://your-server.com/webhook/shoptet)
+2. URL nastaviť na endpoint tohto handlera 
 3. 3. Vytvoriť Google Service Account a zdieľať spreadsheet s jeho emailom
 4. Uložiť credentials.json do rovnakého adresára
